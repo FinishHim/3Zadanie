@@ -10,7 +10,7 @@
 
   <modals title="First modal" v-show="modalFirst" @close="modalFirst = !modalFirst">
   <div slot="body">
-<p>Bla Bla Bla Bla Bla Bla Bla Bla</p>
+<p>Text Text</p>
 <button class="btn btnPrimary" @click="modalFirst = !modalFirst">Well done</button>
 </div>
   </modals>
